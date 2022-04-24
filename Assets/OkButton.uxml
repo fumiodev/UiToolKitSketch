@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/DialogBase.uss?fileID=7433441132597879392&amp;guid=ac333acf6a087c34f8ccfcae0febfaad&amp;type=3#DialogBase" />
+    <ui:Button text="OK" display-tooltip-when-elided="true" name="OkButton" class="OkButton" style="justify-content: flex-start; height: 40px; margin-bottom: 10px; margin-top: 5px; -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/Fonts/BIZUDPGothic-Regular.ttf?fileID=12800000&amp;guid=77cbad1aaa2cf4f46ae61dc48541ed87&amp;type=3#BIZUDPGothic-Regular&apos;);" />
+</ui:UXML>
