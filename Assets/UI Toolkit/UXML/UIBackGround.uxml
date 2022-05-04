@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/UIBackGround.uss?fileID=7433441132597879392&amp;guid=3e0a5c6cc657f6a499dfba8e934b5c7f&amp;type=3#UIBackGround" />
+    <ui:VisualElement class="BackPanel" style="-unity-font-definition: none;" />
+</ui:UXML>
