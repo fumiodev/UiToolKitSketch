@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2c9a4d07f111d8e43962683a383da821
+  m_SerializeEntries:
+  - m_GUID: 9c6fe0e28bdfa5a4dae1b0ac2da2a084
+    m_Address: Assets/UI Toolkit/UXML/SimpleDialog.uxml
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83efa6a365f649b4abffd443123a9133
+    m_Address: Assets/UI Toolkit/UXML/UIBackGround.uxml
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5635c34de8fe3cd4c9f4d5456a77589a
+    m_Address: Assets/UI Toolkit/UXML/OkButton.uxml
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 70020d4ffaf04184aaf7ece9945aacf9
+    m_Address: Assets/UI Toolkit/PanelSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 250ea2395b662804e899f6790a92e44d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f79b6f4f506f8e7478acf8712069bc76, type: 2}
+    - {fileID: 11400000, guid: 27ec815ac615b83418b75fba48380518, type: 2}
