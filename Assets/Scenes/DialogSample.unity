@@ -356,7 +356,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1840988169
+--- !u!1 &1952371246
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,23 +364,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1840988171}
-  - component: {fileID: 1840988170}
-  - component: {fileID: 1840988172}
+  - component: {fileID: 1952371248}
+  - component: {fileID: 1952371247}
+  - component: {fileID: 1952371249}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1840988170
+--- !u!114 &1952371247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840988169}
+  m_GameObject: {fileID: 1952371246}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
@@ -388,15 +388,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: 70020d4ffaf04184aaf7ece9945aacf9, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 9197481963319205126, guid: 9c6fe0e28bdfa5a4dae1b0ac2da2a084, type: 3}
+  sourceAsset: {fileID: 9197481963319205126, guid: 83efa6a365f649b4abffd443123a9133, type: 3}
   m_SortingOrder: 0
---- !u!4 &1840988171
+--- !u!4 &1952371248
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840988169}
+  m_GameObject: {fileID: 1952371246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -405,18 +405,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1840988172
+--- !u!114 &1952371249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840988169}
+  m_GameObject: {fileID: 1952371246}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fda7cde9adbb5e41bf4264a4bf3b078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiDocument: {fileID: 1840988170}
-  title: "\u305F\u3044\u3068\u308B"
-  message: "\u3066\u3059\u3068"
+  m_BackGroundUiDocument: {fileID: 1952371247}
+  m_PanelSettingsRef:
+    m_AssetGUID: 70020d4ffaf04184aaf7ece9945aacf9
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  title: Test
+  message: 'Hello, World
+
+    This is Simple Dialog Sample.'
